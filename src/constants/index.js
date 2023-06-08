@@ -20,7 +20,9 @@ import {
     spotify,
     threejs,
     portfolio,
-    logo
+    logo,
+    logoCV,
+    CV
 } from "../assets";
 
 export const navLinks = [
@@ -190,6 +192,33 @@ const projects = [
         BGforLink: logo,
         source_code_link: "https://github.com/dem1ess/Portfolio",
         site_link: "https://portfolio-dem1ess.netlify.app/",
+    },
+    {
+        name: "CV Builder",
+        description:
+            "Here you can create your CV ",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "uimini",
+                color: "green-text-gradient",
+            },
+            {
+                name: "react-to-print",
+                color: "green-text-gradient",
+            },
+            {
+                name: "classnames",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: CV,
+        BGforLink: logoCV,
+        source_code_link: "https://github.com/dem1ess/constructor",
+        site_link: "https://cv-builder-dem1ess.netlify.app/",
     },
 ];
 

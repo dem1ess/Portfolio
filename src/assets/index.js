@@ -28,6 +28,8 @@ import tripguide from "./tripguide.png";
 import spotifyBG from "./spotify.jpeg";
 import spotify from "./spotify.png"
 import portfolio from "./portfolio.jpeg"
+import logoCV from "./logoCV.jpeg"
+import CV from "./cv-builder.jpeg"
 
 export {
     logo,
@@ -57,5 +59,7 @@ export {
     jobit,
     tripguide,
     spotify,
-    portfolio
+    portfolio,
+    CV,
+    logoCV
 };
